@@ -1,0 +1,6 @@
+@MedicalInventoryAPI_HostAddress = http://localhost:5032
+
+GET {{MedicalInventoryAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
