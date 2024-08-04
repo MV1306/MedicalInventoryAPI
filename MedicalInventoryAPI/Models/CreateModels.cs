@@ -30,5 +30,14 @@
             public string Response { get; set;}
             public string Status { get; set;}
         }
+
+        public class Group_Ip
+        {
+            public string Type { get; set; }
+            public string Code { get; set; }
+            public string Name { get; set; }
+            public string CodePrefix { get; set; }
+            public string CrtdUser { get; set; }
+        }
     }
 }
